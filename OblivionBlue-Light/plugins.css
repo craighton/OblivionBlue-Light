@@ -167,8 +167,8 @@ div#chat:hover {background: transparent url(./images/toolbar.png) no-repeat -408
 
 }
 
-#maillayout #letterform table tr td {background: #181818 }
-#maillayout #replyform table tr td {background: #181818 }
+#maillayout #letterform table tr td {background: #F5F5F5 }
+#maillayout #replyform table tr td {background: #F5F5F5 }
 
 div#logoff {background-image: url(./images/logoff.png);}
 div#logoff:hover {background-image: url(./images/logoff3.png);}
