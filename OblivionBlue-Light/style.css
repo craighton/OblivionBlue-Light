@@ -1,41 +1,41 @@
-html, body {font-family: "Lucida Sans Unicode", "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;background-color: #000; color: #ffffff;scrollbar-base-color:#181818; text-shadow:0px -1px 0px #000;}
+html, body {font-family: "Lucida Sans Unicode", "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;background-color: #fdfdfd; color: #ffffff;scrollbar-base-color:#fdfdfd; text-shadow:0px -1px 0px #f5f5f5;}
 
 div#preload {width: 0px; height: 0px; display: none; background-image: url(./images/menus.png);background-image: url(./images/toolbar.png); background-image: url(./images/status_icons.png);  background-image: url(./images/r_bg.gif); background-image: url(./images/asc.gif); background-image: url(./images/desc.gif); background-image: url(./images/pnl_open.gif); background-image: url(./images/pnl_close.gif);background-image: url(./images/headers.png);}
 
 
-hr {background-color:#000;height:1px;border-width: 0px;border-bottom:1px solid #333333;}
-div#cover {background: #181818}
-div#msg {background: #151515; border-top: 1px solid #333333; border-bottom: 1px solid #333333;font-size: 11px; font-weight: bold;text-shadow:0px -3px 0px #000}
-div#sc {border: 1px solid #333333; background-color: #181818}
-div#sc li.se_act div {background-color: #333333; color: #888888}
-div#lng {background-color:#181818; border:1px solid #333333}
+hr {background-color:#fdfdfd;height:1px;border-width: 0px;border-bottom:1px solid #fdfdfd;}
+div#cover {background: #fdfdfd}
+div#msg {background: #fdfdfd; border-top: 1px solid #fdfdfd; border-bottom: 1px solid #fdfdfd;font-size: 11px; font-weight: bold;text-shadow:0px -3px 0px #fdfdfd}
+div#sc {border: 1px solid #fdfdfd; background-color: #fdfdfd}
+div#sc li.se_act div {background-color: #fdfdfd; color: #fdfdfd}
+div#lng {background-color:#fdfdfd; border:1px solid #fdfdfd}
 
 /*Drop Menu */
-ul.CMenu {opacity:0.98;border-top: 1px solid #333; border-right: 1px solid #070707; border-left: 1px solid #1b1b1b; border-bottom: 1px solid #000;background: #000; padding:0px;-moz-border-radius: 5px; -webkit-border-radius: 5px;}
-ul.CMenu li {background: #181818}
+ul.CMenu {opacity:0.98;border-top: 1px solid #fdfdfd; border-right: 1px solid #fdfdfd; border-left: 1px solid #fdfdfd; border-bottom: 1px solid #fdfdfd;background: #fdfdfd; padding:0px;-moz-border-radius: 5px; -webkit-border-radius: 5px;}
+ul.CMenu li {background: #fdfdfd}
 ul.CMenu li.menuitem:first-child {-moz-border-radius-topleft:5px; -webkit-border-top-left-radius:5px;-moz-border-radius-topright:5px;-webkit-border-top-right-radius:5px;}
 ul.CMenu li.menuitem:last-child{-moz-border-radius-bottomleft:5px; -webkit-border-bottom-left-radius:5px;-moz-border-radius-bottomright:5px;-webkit-border-bottom-right-radius:5px;}
-ul.CMenu li a {color: #757571;background: transparent url(./images/menus.png) no-repeat 0px 0px;}
-ul.CMenu li a.dis {color: #333333}
-ul.CMenu li a.dis:hover {color: #333333}
-ul.CMenu li hr {background-color:#000;height:1px;border-width: 0px;border-bottom:1px solid #1b1b1b;padding:0px;margin:0px;width:100%;}
+ul.CMenu li a {color: #fdfdfd;background: transparent url(./images/menus.png) no-repeat 0px 0px;}
+ul.CMenu li a.dis {color: #fdfdfd}
+ul.CMenu li a.dis:hover {color: #fdfdfd}
+ul.CMenu li hr {background-color:#fdfdfd;height:1px;border-width: 0px;border-bottom:1px solid #fdfdfd;padding:0px;margin:0px;width:100%;}
 ul.CMenu li a.exp {background: transparent url(./images/menus.png) no-repeat right -22px;}
 ul.CMenu li a.exp:hover {background: transparent url(./images/menus.png) no-repeat right -44px;}
 ul.CMenu li a.sel {color:#178FD1;background: transparent url(./images/menus.png) no-repeat 0px -66px;}
 ul.CMenu li ul li a.sel {color:#178FD1}
-ul.CMenu li a:hover {background-color: #888888;; color: #fff;text-shadow:0px -1px 0px #000;}
+ul.CMenu li a:hover {background-color: #fdfdfd;; color: #fdfdfd;text-shadow:0px -1px 0px #fdfdfd;}
 
-ul.CMenu li:hover ul li a {background-color: #181818; color: #666666}
-ul.CMenu li:hover ul li a:hover {background-color; color: #fff;text-shadow:0px -1px 0px #000;}
-ul.CMenu li ul li a.dis {color: #333333}
-ul.CMenu li ul li a.dis:hover {background-color: #181818; color: #333333}
+ul.CMenu li:hover ul li a {background-color: #fdfdfd; color: #fdfdfd}
+ul.CMenu li:hover ul li a:hover {background-color; color: #fdfdfd;text-shadow:0px -1px 0px #fdfdfd;}
+ul.CMenu li ul li a.dis {color: #fdfdfd}
+ul.CMenu li ul li a.dis:hover {background-color: #fdfdfd; color: #fdfdfd}
 
 
-#sel {border: 1px dotted #555555;}
+#sel {border: 1px dotted #fdfdfd;}
 
-div#t {background: #000 url(./images/headers.png) repeat-x 0px -252px; border-bottom: none;}
+div#t {background: #fdfdfd url(./images/headers.png) repeat-x 0px -252px; border-bottom: none;}
 div#t a:hover {background: none;}
-div#t div.TB_Separator {border-right:1px solid #262626;background-color: #000;height:35px;margin:0px 0px 0px 5px}
+div#t div.TB_Separator {border-right:1px solid #fdfdfd;background-color: #fdfdfd;height:35px;margin:0px 0px 0px 5px}
 div#t div#add {background: transparent url(./images/toolbar.png) no-repeat 0px 0px}
 
 div#t div#add:hover {background: transparent url(./images/toolbar.png) no-repeat 0px -24px}
@@ -90,9 +90,9 @@ div#t div#plugins:hover {background: transparent url(./images/toolbar.png) no-re
 
 .stg_con td input {padding:1px 4px;}
 
-a {color: #686868; font-family:inherit;}
-textarea {border: 1px solid #000;background: #ffffff;-moz-border-radius: 5px; -webkit-border-radius: 5px;}
-textarea[disabled] {border: 1px solid #000;background: #888888;-moz-border-radius: 5px; -webkit-border-radius: 5px;}
+a {color: #fdfdfd; font-family:inherit;}
+textarea {border: 1px solid #fdfdfd;background: #fdfdfd;-moz-border-radius: 5px; -webkit-border-radius: 5px;}
+textarea[disabled] {border: 1px solid #fdfdfd;background: #fdfdfd;-moz-border-radius: 5px; -webkit-border-radius: 5px;}
 input[type="text"], input[type="password"], input[type="file"], select {color: black; border: 1px solid #000;background: #ffffff url(./images/headers.png) repeat-x 0px -138px;-moz-border-radius: 5px; -webkit-border-radius: 5px;}
 input[type="text"][disabled], input[type="password"][disabled], input[type="file"][disabled], select[disabled] {color: black; border: 1px solid #000;background: #888888 url(./images/headers.png) repeat-x 0px -138px;-moz-border-radius: 5px; -webkit-border-radius: 5px;}
 input.Button {border: 1px solid #000;background: #000 url(./images/headers.png) repeat-x 0px 0px;color:#2782cf;cursor: pointer;font-weight: bold;text-shadow:0px -1px 0px #000;-moz-border-radius: 5px; -webkit-border-radius: 5px;}
