@@ -79,7 +79,7 @@ div.graph_tab {color:#282828;border-color: #000;}
 }
 
 .CellF {
-    background-color: #000;
+    background-color: #fff;
     color:#fff;
 }
 
@@ -161,14 +161,14 @@ div#webuiRefresh:hover{
 div#chat {background: transparent url(./images/toolbar.png) no-repeat -408px 0px;}
 div#chat:hover {background: transparent url(./images/toolbar.png) no-repeat -408px -24px;}
 
-.shieven {background: #191919; }
+.shieven {background: #F5F5F5; }
 .shiodd {background: #333333; }
 
 
 }
 
-#maillayout #letterform table tr td {background: #181818 }
-#maillayout #replyform table tr td {background: #181818 }
+#maillayout #letterform table tr td {background: #F5F5F5 }
+#maillayout #replyform table tr td {background: #F5F5F5 }
 
 div#logoff {background-image: url(./images/logoff.png);}
 div#logoff:hover {background-image: url(./images/logoff3.png);}
